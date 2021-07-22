@@ -19,6 +19,7 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 820px;
 }
 
 .name .name_photo {
