@@ -1,0 +1,95 @@
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+h3 {
+  color: rgb(205, 92, 92);
+  font-size: 20px;
+  text-align: center;
+}
+
+p {
+  margin: 0;
+}
+
+.name {
+  margin: 0 auto;
+  height: 300px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.name .name_photo {
+  width: 250px;
+  height: 250px;
+  border-radius: 100%;
+}
+
+.name .name_text {
+  padding-left: 150px;
+}
+
+.name .name_name {
+  font-size: 40px;
+  color: rgb(233, 150, 122);
+}
+
+.name .name_contacts {
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+.name .name_contacts li {
+  list-style-type: none;
+  text-align: left;
+}
+
+.name .name_contacts a {
+  text-decoration: none;
+  color: black;
+  font-style: italic;
+}
+
+.description {
+  width: 820px;
+  margin: 0 auto;
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+.description li {
+  list-style: square;
+  text-align: left;
+  margin: 0;
+}
+
+.description .education .education_place {
+  font-style: italic;
+  margin: 0;
+}
+
+.description .samples .samples_code {
+  font-style: italic;
+  background-color: whitesmoke;
+}
+
+footer {
+  height: 100px;
+  width: 820px;
+  margin: 0 auto;
+  position: relative;
+  border-top: 3px solid rgb(205, 92, 92);
+}
+
+.footer_list {
+  margin-right: 5px;
+  padding: 3px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  list-style-type: none;
+  align-items: center;
+  font-size: 20px;
+}
